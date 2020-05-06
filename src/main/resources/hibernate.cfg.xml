@@ -21,7 +21,7 @@
         <!-- JDBC connection pool settings ... using built-in test pool -->
 
         <!-- JDBC connection pool (use the built-in) -->
-        <property name="connection.pool_size">10</property>
+        <property name="connection.pool_size">12</property>
 
         <!-- SQL dialect -->
         <property name="dialect">org.hibernate.dialect.MariaDBDialect</property>

@@ -31,6 +31,14 @@ public class Playground
         session.update(book1);
         tx.commit();
         System.out.println("after" + book1.getTitle());
+        tx.commit();
+
+        tx.begin();
+        session.remove(book1);
+        tx.commit();
+
+
+
         session.close();
 
     }
